@@ -11,17 +11,32 @@ body {
 
 .title {
   background: #e3f4ff;
+  font-size: 20px;
 }
 
 .content {
   background: #e3f4ff;
+
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: auto;
+  font-size: 15px;
+  padding: 10px 25px;
+}
+
+.card,
+.title,
+.content,
+.button-container {
+  padding: 10px;
+  margin: 10px auto;
 }
